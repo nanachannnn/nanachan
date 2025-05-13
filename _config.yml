@@ -1,3 +1,8 @@
 title: nanachanの映像空間
 description: 영상 작업물을 공유하는 공간입니다.
 theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      date: 2025-05-14
