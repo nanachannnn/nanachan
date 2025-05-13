@@ -4,13 +4,42 @@ title: nanachanの映像空間
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>유튜브 영상 및 다운로드 링크</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 15px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+    }
+  </style>
 </head>
 <body>
-  <h1>{{ page.title }}</h1>
-  <p>Jekyll이 적용된 HTML 페이지입니다.</p>
+  <h1>유튜브 영상과 다운로드 링크</h1>
+
+  <!-- 테이블 시작 -->
+  <table>
+    <tr>
+      <td>
+        <h2>유튜브 영상</h2>
+        <iframe src="https://www.youtube.com/watch?v=lROuN-fn_ms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td>
+        <h2>다운로드 링크</h2>
+        <a href="https://github.com/nanachannnn/nanachan/tree/main/Phony-pv-kit" download>여기를 클릭하여 파일 다운로드</a>
+      </td>
+    </tr>
+  </table>
+
 </body>
 </html>
