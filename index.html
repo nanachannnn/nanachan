@@ -3,12 +3,10 @@ layout: default
 title: nanachanの映像空間
 ---
 
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>유튜브 영상 및 다운로드 링크</title>
   <style>
     table {
       width: 100%;
@@ -17,22 +15,27 @@ title: nanachanの映像空間
     }
     th, td {
       border: 2px solid #dbdbdb;
-      padding: 10px;
+      padding: 0;
       width: 50%;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
   <h1 style="text-align: center;">
-    영상+PV kit 다운로드<br>(動画＋PV kit ダウンロード)
+    PV kit 다운로드<br>(PV kit ダウンロード)
   </h1>
-
   <table>
     <tr>
-      <td>
+      <td style="height:30px;">영상</td>
+      <td>다운로드 링크</td>
+    </tr>
+    <tr>
+      <td style="height:200px;">
         <iframe
-          width="370"
-          height="200"
           src="https://www.youtube.com/embed/lROuN-fn_ms?si=p-QLL-5QJqBVTX7E&amp;controls=0"
           title="YouTube video player"
           frameborder="0"
@@ -42,12 +45,14 @@ title: nanachanの映像空間
         </iframe>
       </td>
       <td>
-        <a href="https://github.com/nanachannnn/nanachan/raw/main/Phony-pv-kit/phony_pv_kit_nanachan_1920.mp4" download>PV kit(Phony) 1920 size</a>
-        <br>
-        <a href="https://github.com/nanachannnn/nanachan/raw/main/Phony-pv-kit/phony_pv_kit_nanachan_640.mp4" download>PV kit(Phony) 640 size</a>
+        <div style="text-align: center; margin-bottom: 10px; font-weight:bold;">
+          ツミキ - Phony PV kit
+        </div>
+        <div style="text-align: center; margin-bottom: 10px;">
+        <a href="https://github.com/nanachannnn/nanachan/raw/main/Phony-pv-kit/phony_pv_kit_nanachan_1920.mp4" download>PV kit (Phony) 1920 size</a>
+        </div>
+        <a href="https://github.com/nanachannnn/nanachan/raw/main/Phony-pv-kit/phony_pv_kit_nanachan_640.mp4" download>PV kit (Phony) 640 size</a>
       </td>
     </tr>
     <tr>
   </table>
-</body>
-</html>
