@@ -1,6 +1,9 @@
 @media (min-width: 768px) {
 .wrapper {
-  max-width: 800px; !important;
-  margin-left: 200px; !important;
+  max-width: 800px !important;
+  margin-left: 200px !important;
 }
+}
+body {
+  font-family: 'Apple SD Gothic Neo', sans-serif;
 }
